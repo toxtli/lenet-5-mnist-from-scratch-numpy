@@ -569,7 +569,7 @@ weights = model.get_params()
 with open("weights.pkl","wb") as f:
 	pickle.dump(weights, f)
 
-util.draw_losses(losses)
+draw_losses(losses)
 
 
 
